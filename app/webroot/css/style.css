@@ -1,0 +1,44 @@
+#header {
+  display: block;
+  height: 40px;
+  background: black;
+}
+
+.search-form-row {
+  display: flex;
+  align-items: center;
+  margin:0 8px;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-8 {
+  width: 66.67%;
+}
+
+.action > a {
+  cursor: pointer;
+}
+
+.document-action{
+      display: none;
+}
+
+.sort-by>i {
+  opacity: 0.3;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.desc.sort-by > i {
+  transform: rotate(180deg);
+  opacity: 1;
+}

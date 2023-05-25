@@ -1,0 +1,414 @@
+2023-05-22 13:19:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/learn-cake/index.php(41): require('/var/www/learn-...')
+#2 {main}
+2023-05-22 13:19:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/learn-cake/index.php(41): require('/var/www/learn-...')
+#2 {main}
+2023-05-22 13:22:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/learn-cake/index.php(41): require('/var/www/learn-...')
+#2 {main}
+2023-05-22 13:22:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/learn-cake/index.php(41): require('/var/www/learn-...')
+#2 {main}
+2023-05-22 13:22:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/learn-cake/index.php(41): require('/var/www/learn-...')
+#2 {main}
+2023-05-22 13:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/learn-cake/index.php(41): require('/var/www/learn-...')
+#2 {main}
+2023-05-22 13:52:36 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/learn-cake/app/Controller/DocumentController.php, line 3]
+2023-05-22 13:52:36 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/learn-...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/learn-...', 3, Array)
+#2 /var/www/learn-cake/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/learn-...', 3, Array)
+#3 /var/www/learn-cake/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-05-22 13:52:52 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/learn-cake/app/Controller/DocumentController.php, line 3]
+2023-05-22 13:52:52 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/learn-...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/learn-...', 3, Array)
+#2 /var/www/learn-cake/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/learn-...', 3, Array)
+#3 /var/www/learn-cake/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-05-22 13:53:35 Error: [MissingViewException] View file "Document/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Document/index.ctp',
+)
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/learn-cake/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#4 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2023-05-22 13:53:49 Error: Fatal Error (1): Class 'Controller' not found in [/var/www/learn-cake/app/Controller/DocumentController.php, line 3]
+2023-05-22 13:53:49 Error: [FatalErrorException] Class 'Controller' not found
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/var/www/learn-...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/var/www/learn-...', 3, Array)
+#2 /var/www/learn-cake/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/var/www/learn-...', 3, Array)
+#3 /var/www/learn-cake/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-05-22 13:54:00 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/learn-cake/app/Controller/DocumentController.php, line 3]
+2023-05-22 13:54:00 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/learn-...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/learn-...', 3, Array)
+#2 /var/www/learn-cake/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/learn-...', 3, Array)
+#3 /var/www/learn-cake/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-05-22 13:55:02 Error: [MissingViewException] View file "Document/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Document/index.ctp',
+)
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/learn-cake/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#4 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2023-05-22 13:56:52 Error: [MissingViewException] View file "Document/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Document/index.ctp',
+)
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/learn-cake/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#4 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2023-05-22 13:57:12 Error: [MissingViewException] View file "Document/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Document/index.ctp',
+)
+Request URL: /document/index
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/learn-cake/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#4 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2023-05-25 12:55:39 Error: Fatal Error (1): Class 'AppModel' not found in [/var/www/learn-cake/app/Model/Document.php, line 4]
+2023-05-25 12:55:39 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /document
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', '/var/www/learn-...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', '/var/www/learn-...', 4, Array)
+#2 /var/www/learn-cake/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', '/var/www/learn-...', 4, Array)
+#3 /var/www/learn-cake/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2023-05-25 13:06:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'docs.deleted' in 'where clause'
+Request URL: /document
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(30): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 13:11:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.username' in 'field list'
+Request URL: /document
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT doc.*, u...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT doc.*, u...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT doc.*, u...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT doc.*, u...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(49): Model->query('SELECT doc.*, u...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 13:12:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.username' in 'field list'
+Request URL: /document
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT doc.*, u...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT doc.*, u...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT doc.*, u...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT doc.*, u...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(49): Model->query('SELECT doc.*, u...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 13:47:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doc.name LIKE '%file2%'' at line 3
+Request URL: /document?name=file2&size_min=&size_max=&user_upload=
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(45): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 13:47:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doc.name LIKE '%file2%'' at line 3
+Request URL: /document?name=file2&size_min=&size_max=&user_upload=
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(45): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 13:47:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doc.name LIKE '%file2%'' at line 3
+Request URL: /document?name=file2&size_min=&size_max=&user_upload=
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(45): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 13:48:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doc.name LIKE '%test1%'' at line 3
+Request URL: /document?name=test1&size_min=&size_max=&user_upload=
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(44): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:02:38 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(63): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:07:09 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(63): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:07:48 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(63): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:10:50 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(70): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:10:54 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(70): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:11:20 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(71): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:13:15 Error: [PDOException] SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+Request URL: /document?name=file1&size_min=123&size_max=3243&types%5B0%5D=image%2Fpng&user_upload=asdad
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(70): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 14:24:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'all' at line 1
+Request URL: /document?name=&size_min=&size_max=&user_upload=
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('all', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('all', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('all', Array, Array)
+#4 [internal function]: DboSource->query('all', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(75): Model->query('all', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2023-05-25 15:09:28 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'doc.user_upload = '1'' at line 3
+Request URL: /document?name=&size_min=&size_max=&user_upload=1
+Stack Trace:
+#0 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/learn-cake/lib/Cake/Model/Datasource/DboSource.php(616): DboSource->fetchAll('SELECT COUNT(*)...', Array, Array)
+#4 [internal function]: DboSource->query('SELECT COUNT(*)...', Array, false)
+#5 /var/www/learn-cake/lib/Cake/Model/Model.php(3470): call_user_func_array(Array, Array)
+#6 /var/www/learn-cake/app/Controller/DocumentController.php(103): Model->query('SELECT COUNT(*)...', Array)
+#7 [internal function]: DocumentController->index()
+#8 /var/www/learn-cake/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(DocumentController), Array)
+#9 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/learn-cake/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DocumentController), Object(CakeRequest))
+#11 /var/www/learn-cake/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
